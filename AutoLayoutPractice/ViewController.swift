@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet var profileImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setProfileUI()
     }
 
+    func setProfileUI() {
+        profileImageView.contentMode = .scaleAspectFill
+        profileImageView.layer.cornerRadius = 30
+    }
 
 }
 
