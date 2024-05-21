@@ -50,11 +50,22 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여성은" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwc-4e-Y2j">
+                                <rect key="frame" x="174.33333333333334" y="683" width="44.333333333333343" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Txp-gI-4Xa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="iBK-bp-or4" secondAttribute="bottom" id="D68-jD-fVU"/>
+                            <constraint firstItem="dwc-4e-Y2j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lmk-Co-zIA"/>
+                            <constraint firstItem="dwc-4e-Y2j" firstAttribute="top" secondItem="w9O-F0-brM" secondAttribute="bottom" constant="15" id="Vzc-eN-iPG"/>
                             <constraint firstItem="iBK-bp-or4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Zdu-Px-R7F"/>
                             <constraint firstItem="iBK-bp-or4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dbI-5d-Pit"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iBK-bp-or4" secondAttribute="trailing" id="mAL-IK-MWd"/>
